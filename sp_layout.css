@@ -47,7 +47,12 @@ img#logo{
 
 
 /* Horizontal Navigation List Styles */
-
+nav.horizontal, footer{
+   grid-column: span 4;
+}
+aside{
+   grid-column: span 2;
+}
 
 
 /* Section Styles */
